@@ -1,0 +1,159 @@
+[
+  {
+    "screenId": "365e8cd24d16465aa0238ecd7ad62674",
+    "title": "Pause Overlay",
+    "componentName": "PauseOverlay",
+    "file": "src/screens/PauseOverlay.tsx",
+    "buttons": 6,
+    "inputs": 0,
+    "links": 0,
+    "actions": [
+      {
+        "id": "button-1-1",
+        "kind": "button",
+        "label": "Button 1",
+        "index": 0
+      },
+      {
+        "id": "button-2-2",
+        "kind": "button",
+        "label": "Button 2",
+        "index": 1
+      },
+      {
+        "id": "button-3-3",
+        "kind": "button",
+        "label": "Button 3",
+        "index": 2
+      },
+      {
+        "id": "resume-mission-4",
+        "kind": "button",
+        "label": "Resume Mission",
+        "index": 3
+      },
+      {
+        "id": "restart-level-5",
+        "kind": "button",
+        "label": "Restart Level",
+        "index": 4
+      },
+      {
+        "id": "quit-to-menu-6",
+        "kind": "button",
+        "label": "Quit to Menu",
+        "index": 5
+      }
+    ]
+  },
+  {
+    "screenId": "3ebfc8d771e94cbfa7d0cfbedff52e95",
+    "title": "Main Menu",
+    "componentName": "MainMenu",
+    "file": "src/screens/MainMenu.tsx",
+    "buttons": 4,
+    "inputs": 0,
+    "links": 0,
+    "actions": [
+      {
+        "id": "start-new-game-1",
+        "kind": "button",
+        "label": "Start New Game",
+        "index": 0
+      },
+      {
+        "id": "resume-session-unavailable-2",
+        "kind": "button",
+        "label": "Resume Session [UNAVAILABLE]",
+        "index": 1
+      },
+      {
+        "id": "controls-help-3",
+        "kind": "button",
+        "label": "Controls Help",
+        "index": 2
+      },
+      {
+        "id": "system-settings-4",
+        "kind": "button",
+        "label": "System Settings",
+        "index": 3
+      }
+    ]
+  },
+  {
+    "screenId": "95d1cbe681ab417dbf052545f7c70ab1",
+    "title": "Controls Help",
+    "componentName": "ControlsHelp",
+    "file": "src/screens/ControlsHelp.tsx",
+    "buttons": 1,
+    "inputs": 0,
+    "links": 0,
+    "actions": [
+      {
+        "id": "return-1",
+        "kind": "button",
+        "label": "Return",
+        "index": 0
+      }
+    ]
+  },
+  {
+    "screenId": "f55ced9313774975814ef0e97066aed2",
+    "title": "Game Board",
+    "componentName": "GameBoard",
+    "file": "src/screens/GameBoard.tsx",
+    "buttons": 4,
+    "inputs": 0,
+    "links": 4,
+    "actions": [
+      {
+        "id": "button-1-1",
+        "kind": "button",
+        "label": "Button 1",
+        "index": 0
+      },
+      {
+        "id": "button-2-2",
+        "kind": "button",
+        "label": "Button 2",
+        "index": 1
+      },
+      {
+        "id": "button-3-3",
+        "kind": "button",
+        "label": "Button 3",
+        "index": 2
+      },
+      {
+        "id": "initiate-core-4",
+        "kind": "button",
+        "label": "INITIATE_CORE",
+        "index": 3
+      }
+    ]
+  },
+  {
+    "screenId": "341dfa22d6194fa4bdb4bb56401f6342",
+    "title": "Game Over",
+    "componentName": "GameOver",
+    "file": "src/screens/GameOver.tsx",
+    "buttons": 2,
+    "inputs": 0,
+    "links": 0,
+    "actions": [
+      {
+        "id": "reboot-sequence-1",
+        "kind": "button",
+        "label": "REBOOT SEQUENCE",
+        "index": 0
+      },
+      {
+        "id": "return-to-core-2",
+        "kind": "button",
+        "label": "RETURN TO CORE",
+        "index": 1
+      }
+    ]
+  }
+]
