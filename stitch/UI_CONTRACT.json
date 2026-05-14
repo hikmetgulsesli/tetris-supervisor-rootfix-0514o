@@ -1,0 +1,296 @@
+[
+  {
+    "screenId": "365e8cd24d16465aa0238ecd7ad62674",
+    "screenTitle": "Pause Overlay",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 122
+      },
+      {
+        "type": "button",
+        "label": "help_outline",
+        "line": 125
+      },
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 128
+      },
+      {
+        "type": "button",
+        "label": "Resume Mission",
+        "line": 198
+      },
+      {
+        "type": "button",
+        "label": "Restart Level",
+        "line": 202
+      },
+      {
+        "type": "button",
+        "label": "Quit to Menu",
+        "line": 206
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 122
+      },
+      {
+        "type": "button",
+        "label": "help_outline",
+        "line": 125
+      },
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 128
+      },
+      {
+        "type": "button",
+        "label": "Resume Mission",
+        "line": 198
+      },
+      {
+        "type": "button",
+        "label": "Restart Level",
+        "line": 202
+      },
+      {
+        "type": "button",
+        "label": "Quit to Menu",
+        "line": 206
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 6,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "3ebfc8d771e94cbfa7d0cfbedff52e95",
+    "screenTitle": "Main Menu",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "Start New Game",
+        "line": 139
+      },
+      {
+        "type": "button",
+        "label": "Resume Session [UNAVAILABLE]",
+        "line": 145
+      },
+      {
+        "type": "button",
+        "label": "Controls Help",
+        "line": 152
+      },
+      {
+        "type": "button",
+        "label": "System",
+        "line": 159
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Start New Game",
+        "line": 139
+      },
+      {
+        "type": "button",
+        "label": "Resume Session [UNAVAILABLE]",
+        "line": 145
+      },
+      {
+        "type": "button",
+        "label": "Controls Help",
+        "line": 152
+      },
+      {
+        "type": "button",
+        "label": "System",
+        "line": 159
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 4,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "95d1cbe681ab417dbf052545f7c70ab1",
+    "screenTitle": "Controls Help",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "Return",
+        "line": 190
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Return",
+        "line": 190
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 1,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "f55ced9313774975814ef0e97066aed2",
+    "screenTitle": "Game Board",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Mission",
+        "href": "#",
+        "line": 205
+      },
+      {
+        "type": "link",
+        "label": "leaderboard",
+        "href": "#",
+        "line": 209
+      },
+      {
+        "type": "link",
+        "label": "Archive",
+        "href": "#",
+        "line": 213
+      },
+      {
+        "type": "link",
+        "label": "Diagnostics",
+        "href": "#",
+        "line": 217
+      },
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 187
+      },
+      {
+        "type": "button",
+        "label": "help_outline",
+        "line": 190
+      },
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 193
+      },
+      {
+        "type": "button",
+        "label": "INITIATE_CORE",
+        "line": 222
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Mission",
+        "href": "#",
+        "line": 205
+      },
+      {
+        "type": "link",
+        "label": "leaderboard",
+        "href": "#",
+        "line": 209
+      },
+      {
+        "type": "link",
+        "label": "Archive",
+        "href": "#",
+        "line": 213
+      },
+      {
+        "type": "link",
+        "label": "Diagnostics",
+        "href": "#",
+        "line": 217
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "settings",
+        "line": 187
+      },
+      {
+        "type": "button",
+        "label": "help_outline",
+        "line": 190
+      },
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 193
+      },
+      {
+        "type": "button",
+        "label": "INITIATE_CORE",
+        "line": 222
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 8,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "341dfa22d6194fa4bdb4bb56401f6342",
+    "screenTitle": "Game Over",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "REBOOT SEQUENCE",
+        "line": 175
+      },
+      {
+        "type": "button",
+        "label": "RETURN TO CORE",
+        "line": 179
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "REBOOT SEQUENCE",
+        "line": 175
+      },
+      {
+        "type": "button",
+        "label": "RETURN TO CORE",
+        "line": 179
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 2,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]
